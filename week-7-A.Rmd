@@ -56,7 +56,7 @@ q_resamples2 %>%
   ggplot(aes(x = mean_hours, y = after_stat(count/sum(count)))) + 
     geom_histogram(binwidth = 0.05, color = "white") +
     theme_light() +
-    labs(x = "Mean Hours", y = "Density")
+    labs(x = "Mean Hours", y = "Probability Density")
 ```
 
 
